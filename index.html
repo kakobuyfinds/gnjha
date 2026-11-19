@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#103d30">
+<title>PikoBuy spreadsheet | Product Finds, QC & Budget Guide</title>
+<meta name="description" content="Explore the PikoBuy spreadsheet guide with real HipobuyFind product listings, searchable categories, CNY prices, sizing checks and a practical shopping budget tool.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PikoBuy spreadsheet | Find. Compare. Plan.">
+<meta property="og:description" content="Browse real HipobuyFind listings and use practical sizing, QC and budget checklists before buying.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#f5f6f0;--ink:#172e25;--muted:#59665e;--green:#103d30;--lime:#d9f093;--line:#dce2d6;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}button,input,select{font:inherit}button,select{cursor:pointer}a,button,input,select{outline-offset:5px}img{max-width:100%;display:block}.wrap{width:min(1160px,92%);margin:auto}header{border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 0}.brand{text-decoration:none;font-size:19px;font-weight:850;letter-spacing:-.5px}.brand span{background:var(--green);color:var(--lime);padding:7px 11px;border-radius:12px;margin-right:9px}.navlinks{display:flex;gap:24px;font-size:14px}.navlinks a{text-decoration:none}.hero{text-align:center;padding:82px 0 52px}.eyebrow{text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:2px;color:#466653}h1{font-size:clamp(42px,7vw,80px);line-height:1.05;letter-spacing:-3px;margin:19px 0}h1 span{color:#507044}.lead{max-width:680px;margin:24px auto;color:var(--muted);font-size:18px}.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:27px 0}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 24px;border-radius:9px;background:var(--green);color:white;text-decoration:none;font-weight:750;border:1px solid var(--green)}.btn.light{background:var(--lime);color:var(--green);border-color:var(--lime)}.note{font-size:13px;color:var(--muted)}.strip{display:grid;grid-template-columns:repeat(3,1fr);background:var(--green);color:#fff;border-radius:16px;padding:25px;gap:24px}.strip strong{display:block;color:var(--lime)}.strip p{margin:4px 0 0;font-size:14px;color:#d5e0d6}section{padding:58px 0;scroll-margin-top:20px}h2{font-size:clamp(27px,4vw,39px);line-height:1.2;letter-spacing:-1px;margin:8px 0 16px}h3{line-height:1.4}.sectiontop{display:flex;justify-content:space-between;align-items:end;gap:24px}.sectiontop p{max-width:680px;color:var(--muted)}.tools{display:flex;gap:12px;margin:22px 0;flex-wrap:wrap}.tools input{flex:1;min-width:180px}.tools input,.tools select,.budget input{background:white;border:1px solid #b9c7b9;padding:12px;border-radius:8px;color:var(--ink)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}.photo{aspect-ratio:1.12;background:#e9ede4;overflow:hidden;position:relative}.photo img{width:100%;height:100%;object-fit:contain;transition:transform .3s}.card:hover img{transform:scale(1.035)}.body{padding:20px;display:flex;flex:1;flex-direction:column}.tag{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#526a56;font-weight:800}.card h3{font-size:18px;margin:8px 0}.price{font-weight:800;margin:0 0 10px}.check{font-size:13px;color:var(--muted);flex:1}.card a{font-size:14px;font-weight:750;margin-top:12px;text-underline-offset:4px}.empty{padding:24px;background:white;border-radius:10px}.guide{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.panel{padding:26px;background:white;border:1px solid var(--line);border-radius:14px}.number{font-size:13px;font-weight:800;color:#4b6b43}.panel h3{margin:12px 0}.panel p{font-size:15px;color:var(--muted)}.budget{background:var(--green);color:white;border-radius:18px;padding:32px;display:grid;grid-template-columns:1fr 1.1fr;gap:40px}.budget p{color:#d4e1d6}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.fields label{font-size:13px}.fields input{width:100%;display:block;margin-top:6px}.result{background:var(--lime);color:var(--green);padding:18px;border-radius:10px;margin-top:18px}.result output{font-size:28px;font-weight:850;display:block}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;background:white;font-size:14px}th,td{text-align:left;padding:17px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#e8eddf}details{background:white;border:1px solid var(--line);padding:19px 22px;border-radius:10px;margin:12px 0}summary{font-weight:750;cursor:pointer}details p{color:var(--muted);margin-bottom:0}.closing{background:#e5edda;text-align:center;border-radius:18px;padding:38px}.closing p{max-width:650px;margin:12px auto}footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:30px}.foot p{max-width:770px;margin:0}[hidden]{display:none!important}
+@media(max-width:760px){.navlinks{gap:12px;font-size:12px}.hero{padding-top:50px}h1{letter-spacing:-1.8px}.grid{grid-template-columns:repeat(2,1fr)}.strip,.guide,.budget{grid-template-columns:1fr}.strip{gap:16px}.sectiontop{display:block}.budget{gap:16px;padding:24px}.foot{display:block}.foot a{display:inline-block;margin-top:16px}section{padding:38px 0}.body{padding:15px}.card h3{font-size:16px}}
+@media(max-width:420px){.navlinks a:first-child{display:none}.grid{gap:10px}.fields{grid-template-columns:1fr}.card .check{font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.photo img{transition:none}}
+</style>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebPage",
+ "name":"PikoBuy spreadsheet | Product Finds, QC & Budget Guide",
+ "description":"Independent product research guide with a sourced HipobuyFind catalog sample, sizing checks and a planning calculator.",
+ "inLanguage":"en",
+ "mainEntity":{
+   "@type":"ItemList",
+   "name":"HipobuyFind product research sample",
+   "numberOfItems":6,
+   "itemListElement":[
+     {"@type":"ListItem","position":1,"name":"Cream Chunky Sneakers with Wide Laces","url":"https://hipobuyfind.com/goods-148191.html"},
+     {"@type":"ListItem","position":2,"name":"Black Canvas Low-Top Sneakers with Gum Sole","url":"https://hipobuyfind.com/goods-148188.html"},
+     {"@type":"ListItem","position":3,"name":"Crewneck Sweatshirt","url":"https://hipobuyfind.com/goods-154916.html"},
+     {"@type":"ListItem","position":4,"name":"Graphic Short-Sleeve T-Shirt","url":"https://hipobuyfind.com/goods-154920.html"},
+     {"@type":"ListItem","position":5,"name":"Hooded Quick-Dry Jacket","url":"https://hipobuyfind.com/goods-154851.html"},
+     {"@type":"ListItem","position":6,"name":"Beige Quilted Drawstring Mini Backpack, Style 6302-1","url":"https://hipobuyfind.com/goods-154850.html"}
+   ]
+ }
+}
+</script>
+<!--
+index.html
+Research references:
+https://pikobuybestsheet.com/
+https://chinagrails.com/en/spreadsheet/agent/pikobuy
+https://pikobuyfinds.net/spreadsheet/
+Search results were retrieved through a search service; Google first-page positions were not independently verified.
+Implemented opportunities: static crawlable product records, transparent destination labels,
+clean product titles, category and price filters, category-specific inspection guidance,
+and a budget calculator without unsupported QC or product-count claims.
+Source catalog: https://hipobuyfind.com/ ; retrieved 2026-11-19.
+Images and CNY prices below were copied from actual source records.
+Deployment: set a self-referencing canonical and og:url after the final public URL is known.
+Indexing has NOT been submitted: no deployed URL or verified webmaster access was provided.
+After deployment, verify the property in Google Search Console and Bing Webmaster Tools,
+submit its sitemap, and request indexing of the public homepage. HTML alone cannot submit
+an unpublished page or guarantee indexing. Do not embed private verification keys here.
+-->
+<link rel="canonical" href="https://kakobuyfinds.github.io/gnjha/">
+</head>
+<body>
+<header>
+<div class="wrap nav">
+<a class="brand" href="https://hipobuyfind.com"><span>P</span>Finds notebook</a>
+<nav class="navlinks" aria-label="Main navigation">
+<a href="#catalog">Product directory</a>
+<a href="#guide">Buying checklist</a>
+<a href="#faq">FAQ</a>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<div class="hero">
+<div class="eyebrow">Independent discovery &amp; shopping research</div>
+<h1>PikoBuy spreadsheet<br><span>Find. Compare. Plan.</span></h1>
+<p class="lead">Explore a focused selection of real HipobuyFind listings, compare product prices, and check the details that matter before building your shortlist.</p>
+<div class="actions">
+<a class="btn" href="https://hipobuyfind.com">PikoBuy spreadsheet</a>
+<a class="btn light" href="https://hipobuyfind.com">Buy it now <span aria-hidden="true">&nbsp;↗</span></a>
+</div>
+<p class="note">Both buttons open HipobuyFind. This independent guide is not an official PikoBuy service.</p>
+</div>
+
+<div class="strip">
+<div><strong>Actual source records</strong><p>Product IDs and original CNY listing prices.</p></div>
+<div><strong>Useful comparison tools</strong><p>Search, filter and estimate your own budget.</p></div>
+<div><strong>Clear buying context</strong><p>Listing photos are not verified warehouse QC.</p></div>
+</div>
+
+<section id="catalog" aria-labelledby="catalog-title">
+<div class="sectiontop">
+<div>
+<div class="eyebrow">01 / The product directory</div>
+<h2 id="catalog-title">Start with something specific.</h2>
+<p>This six-item sample was imported from HipobuyFind on <time datetime="2026-11-19">19 November 2026</time>. Prices are a snapshot and exclude delivery, fees and taxes. Open the source record to check current options and availability.</p>
+</div>
+<a href="https://hipobuyfind.com">Explore full catalog ↗</a>
+</div>
+<div class="tools" role="search" aria-label="Filter product sample">
+<input id="search" type="search" aria-label="Search products" placeholder="Search sneakers, sweatshirt, backpack…">
+<select id="category" aria-label="Product category">
+<option value="all">All categories</option><option value="Shoes">Shoes</option><option value="Clothing">Clothing</option><option value="Bags">Bags</option>
+</select>
+<select id="sort" aria-label="Sort products">
+<option value="default">Directory order</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option>
+</select>
+</div>
+<p class="note" id="count" role="status" aria-live="polite">6 source listings</p>
+<div class="grid" id="products">
+<article class="card" data-category="Shoes" data-price="350">
+<div class="photo"><img src="https://si.geilicdn.com/open1700230128-1234478995-64a0000001987b40d1cb0a8115c2_1080_1440.jpg" alt="Cream chunky sneakers with wide laces" width="600" height="600" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Shoes · #148191</span><h3>Cream Chunky Sneakers with Wide Laces</h3><p class="price">CNY 350.00</p><p class="check">Check the selected size in centimetres, lace width and sole profile.</p><a href="https://hipobuyfind.com/goods-148191.html">View HipobuyFind record ↗</a></div>
+</article>
+<article class="card" data-category="Shoes" data-price="450">
+<div class="photo"><img src="https://si.geilicdn.com/open1700230128-1234478995-6d07000001987b436b390a22d249_800_800.jpg" alt="Black canvas low-top sneakers with gum sole" width="600" height="600" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Shoes · #148188</span><h3>Black Canvas Low-Top Sneakers with Gum Sole</h3><p class="price">CNY 450.00</p><p class="check">Compare toe shape, upper stitching and outsole measurements.</p><a href="https://hipobuyfind.com/goods-148188.html">View HipobuyFind record ↗</a></div>
+</article>
+<article class="card" data-category="Clothing" data-price="150">
+<div class="photo"><img src="https://si.geilicdn.com/open1792148229-1234478995-7e9c00000196f416b6ef0a22d249_800_800.jpg" alt="Crewneck sweatshirt source listing photograph" width="600" height="600" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Clothing · #154916</span><h3>Crewneck Sweatshirt</h3><p class="price">CNY 150.00</p><p class="check">Compare chest width, body length and sleeve measurements with a sweatshirt you own.</p><a href="https://hipobuyfind.com/goods-154916.html">View HipobuyFind record ↗</a></div>
+</article>
+<article class="card" data-category="Clothing" data-price="105">
+<div class="photo"><img src="https://si.geilicdn.com/open1792148229-1234478995-09a000000196efa4b3cc0aa0834c_800_800.jpg" alt="Graphic short-sleeve T-shirt source listing photograph" width="600" height="600" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Clothing · #154920</span><h3>Graphic Short-Sleeve T-Shirt</h3><p class="price">CNY 105.00</p><p class="check">Inspect print placement, neckline and the seller's fabric description.</p><a href="https://hipobuyfind.com/goods-154920.html">View HipobuyFind record ↗</a></div>
+</article>
+<article class="card" data-category="Clothing" data-price="157.14">
+<div class="photo"><img src="https://si.geilicdn.com/wdseller1489596767-2b4400000193c17bed690a210139_697_1024.jpg" alt="Hooded quick-dry jacket source listing photograph" width="600" height="600" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Clothing · #154851</span><h3>Hooded Quick-Dry Jacket</h3><p class="price">CNY 157.14</p><p class="check">Check hood adjustment, zipper operation and room for layering. Verify performance claims separately.</p><a href="https://hipobuyfind.com/goods-154851.html">View HipobuyFind record ↗</a></div>
+</article>
+<article class="card" data-category="Bags" data-price="340">
+<div class="photo"><img src="https://si.geilicdn.com/pcitem901921648802-7dbe000001955a1df4c10a210349_1080_1080.jpg" alt="Beige quilted drawstring mini backpack" width="600" height="600" loading="lazy" decoding="async"></div>
+<div class="body"><span class="tag">Bags · #154850</span><h3>Beige Quilted Drawstring Mini Backpack</h3><p class="price">CNY 340.00</p><p class="check">Style 6302-1. Confirm dimensions, strap attachment and closure details.</p><a href="https://hipobuyfind.com/goods-154850.html">View HipobuyFind record ↗</a></div>
+</article>
+</div>
+<p class="empty" id="empty" hidden>No matching items in this sample. Try a broader search or open the full HipobuyFind catalog.</p>
+<noscript><p>All source listings are visible above. Enable JavaScript to use filtering and the budget calculator.</p></noscript>
+</section>
+
+<section id="guide">
+<div class="eyebrow">02 / Make a better shortlist</div>
+<h2>How to use a PikoBuy spreadsheet</h2>
+<p>A product spreadsheet organizes potential purchases. A useful row helps you identify the item, compare the selected variant and find the original listing. A product link alone does not establish quality, authenticity or compatibility with an agent.</p>
+<div class="guide">
+<div class="panel"><span class="number">STEP 01</span><h3>Find the exact variant</h3><p>Record the source ID, color, size and quantity. Check whether the displayed price applies to that combination. A low entry price may refer to another option.</p></div>
+<div class="panel"><span class="number">STEP 02</span><h3>Check evidence and fit</h3><p>Use actual measurements and recent, item-specific photographs where available. Ask for missing details before ordering. Do not treat a seller image as an inspection of your order.</p></div>
+<div class="panel"><span class="number">STEP 03</span><h3>Confirm the buying route</h3><p>These listings open HipobuyFind. If you intend to use PikoBuy, confirm the original seller URL can be accepted there and review current service terms before payment.</p></div>
+</div>
+</section>
+
+<section aria-labelledby="budget-title">
+<div class="budget">
+<div><div class="eyebrow" style="color:#d9f093">03 / Know your numbers</div><h2 id="budget-title">Product price is only the beginning.</h2><p>Enter your own exchange rate and combined allowances for domestic delivery, international shipping, service charges and taxes. The result is a planning estimate, not a checkout quote.</p><p class="note">The starting exchange rate is an editable example, not a live rate. International shipping can depend on both actual weight and package dimensions.</p></div>
+<div>
+<div class="fields">
+<label>Products total (CNY)<input id="cost" type="number" min="0" step="0.01" value="350" inputmode="decimal"></label>
+<label>CNY per USD — example rate<input id="rate" type="number" min="0.01" step="0.01" value="7.20" inputmode="decimal"></label>
+<label>Delivery allowance (USD)<input id="shipping" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
+<label>Fees &amp; tax allowance (USD)<input id="fees" type="number" min="0" step="0.01" value="0" inputmode="decimal"></label>
+</div>
+<div class="result" aria-live="polite">Estimated total in USD<output id="total">$48.61</output><small>Zero allowances exclude those costs; they do not mean free shipping or no tax.</small></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="eyebrow">04 / Before you pay</div>
+<h2>A category-by-category QC checklist</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th scope="col">Category</th><th scope="col">Request or inspect</th><th scope="col">Resolve before proceeding</th></tr></thead>
+<tbody>
+<tr><th scope="row">Shoes</th><td>Size label, insole length where available, both shoes, stitching and soles.</td><td>Wrong size, visible damage, mismatched pair or unclear sizing method.</td></tr>
+<tr><th scope="row">Tops &amp; sweatshirts</th><td>Chest width, length, sleeves, seams and print position.</td><td>Measurements outside your tolerance or a different selected color.</td></tr>
+<tr><th scope="row">Jackets</th><td>Shoulders, chest, zipper, lining, cuffs and hood.</td><td>Missing features, faulty fasteners or insufficient space for layers.</td></tr>
+<tr><th scope="row">Bags</th><td>Height, width, depth, straps, lining and closures.</td><td>Unclear capacity, damaged hardware or loose strap attachment.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">Photos can reveal visible issues. They cannot reliably prove material composition, durability, authenticity or technical performance.</p>
+</section>
+
+<section id="faq">
+<div class="eyebrow">05 / Quick answers</div>
+<h2>PikoBuy spreadsheet FAQ</h2>
+<details open><summary>What is a PikoBuy spreadsheet?</summary><p>It is a product discovery list used to organize finds for shopping research. This page combines that research workflow with a clearly labeled sample from HipobuyFind; the sample is not a verified list of PikoBuy-compatible links.</p></details>
+<details><summary>Where do the buttons and product links go?</summary><p>The “PikoBuy spreadsheet” and “Buy it now” buttons both open https://hipobuyfind.com. Individual product links open the corresponding HipobuyFind record. This page does not process orders or payments.</p></details>
+<details><summary>Are these real products from the requested directory?</summary><p>The six records, images, product IDs and CNY prices were sourced from the public HipobuyFind homepage on 19 November 2026. Titles have been shortened to remove unrelated keyword suffixes. Stock, options and prices may change after that snapshot.</p></details>
+<details><summary>Are the photos verified QC images?</summary><p>No. They are images provided in the source catalog. No independent inspection or purchase testing has been performed for this page. Request order-specific evidence through your chosen buying service.</p></details>
+<details><summary>Does the listed price include international shipping?</summary><p>Do not assume it does. Confirm seller delivery charges, agent fees, package weight and dimensions, destination charges and any applicable taxes before deciding on a total budget.</p></details>
+<details><summary>Can I return an item if the measurements are wrong?</summary><p>Eligibility depends on the seller, buying service, item type and timing. Read the current terms and ask about return costs and deadlines before paying. This page cannot authorize a return.</p></details>
+</section>
+
+<section>
+<div class="closing"><div class="eyebrow">Your next step</div><h2>Browse with a checklist.</h2><p>Choose a category, save the exact item details, and confirm the current listing before committing your budget.</p><div class="actions"><a class="btn" href="https://hipobuyfind.com">PikoBuy spreadsheet</a><a class="btn light" href="https://hipobuyfind.com">Buy it now ↗</a></div></div>
+</section>
+</main>
+<footer>
+<div class="wrap foot"><p>© 2026 Finds notebook. Independent PikoBuy spreadsheet research guide. Not affiliated with or endorsed by PikoBuy. Product content comes from HipobuyFind and its image providers; listing names do not establish brand authenticity. Purchases and service terms are handled at the destination. This page uses no analytics, accounts or cookies.</p><a href="https://hipobuyfind.com">Visit HipobuyFind ↗</a></div>
+</footer>
+<script>
+(function(){
+"use strict";
+const search=document.getElementById("search"),category=document.getElementById("category"),sort=document.getElementById("sort"),container=document.getElementById("products");
+const cards=Array.from(container.children);
+function filter(){
+const term=search.value.trim().toLowerCase();
+const ordered=cards.slice();
+if(sort.value==="low")ordered.sort((a,b)=>Number(a.dataset.price)-Number(b.dataset.price));
+if(sort.value==="high")ordered.sort((a,b)=>Number(b.dataset.price)-Number(a.dataset.price));
+let visible=0;
+ordered.forEach(card=>{
+const match=(category.value==="all"||card.dataset.category===category.value)&&card.textContent.toLowerCase().includes(term);
+card.hidden=!match;
+if(match)visible++;
+container.appendChild(card);
+});
+document.getElementById("count").textContent=visible+" source listing"+(visible===1?"":"s");
+document.getElementById("empty").hidden=visible!==0;
+}
+search.addEventListener("input",filter);
+category.addEventListener("change",filter);
+sort.addEventListener("change",filter);
+const ids=["cost","rate","shipping","fees"];
+function calculate(){
+const values=ids.map(id=>document.getElementById(id).valueAsNumber);
+const output=document.getElementById("total");
+if(values.some(n=>!Number.isFinite(n))||values[0]<0||values[1]<=0||values[2]<0||values[3]<0){
+output.textContent="Enter valid amounts";
+return;
+}
+const sum=values[0]/values[1]+values[2]+values[3];
+output.textContent=Number.isFinite(sum)?new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"}).format(sum):"Check your amounts";
+}
+ids.forEach(id=>document.getElementById(id).addEventListener("input",calculate));
+calculate();
+document.querySelectorAll(".photo img").forEach(img=>{
+img.addEventListener("error",function(){
+this.hidden=true;
+const fallback=document.createElement("span");
+fallback.textContent="Photo unavailable · open source record";
+fallback.style.cssText="display:block;padding:35px 20px;color:#59665e;font-size:14px";
+this.parentElement.appendChild(fallback);
+},{once:true});
+});
+})();
+</script>
+</body>
+</html>
